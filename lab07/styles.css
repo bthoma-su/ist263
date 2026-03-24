@@ -1,0 +1,32 @@
+body {
+  background-color: #1A1208;
+  color: #E8DFD0;
+}
+
+h1, h2, h3 {
+  color: #F2E8D9;
+}
+
+a {
+  color: #A61C2E;
+}
+
+nav {
+  background-color: #2C1F10;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #D4896A;
+}
+
+nav a:hover {
+  background-color: #4A1A1A;
+}
+<style>
+    .banner {
+        width: 50%;
+        display: block;
+    }
+</style>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../index.html">Bio</a> |
+        <a href="../skills.html">Skills</a> |
+        <a href="../contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <img src="../images/banner.png" alt="Banner" class="banner">
+        <h1>Contact</h1>
+    </header>
+
+    <main>
+
+        <!-- Row 1: Address | Email + LinkedIn -->
+        <div class="row">
+            <div class="col box">
+                <p>Ben Thomas<br>
+                900 South Crouse Avenue<br>
+                Syracuse, NY 13244</p>
+            </div>
+            <div class="col box">
+                <a href="mailto:bthoma32@syr.edu">bthoma32@syr.edu</a><br><br>
+                <a href="https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="_blank">
+                    <img src="../images/LinkedIn-Logo72.png" alt="LinkedIn Logo" width="75"><br>
+                    My LinkedIn Profile
+                </a>
+            </div>
+        </div>
+
+        <!-- Row 2: Form | Map -->
+        <div class="row">
+            <div class="col box">
+                <h2>Send Me a Message</h2>
+                <form action="https://formspree.io/f/mkovwnwr" method="post">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+
+                    <fieldset>
+                        <legend>What are you reaching out about?</legend>
+                        <input type="radio" id="sports" name="inquiry" value="Sports Photography">
+                        <label for="sports">Sports Photography</label><br>
+                        <input type="radio" id="food" name="inquiry" value="Food Photography">
+                        <label for="food">Food Photography</label><br>
+                        <input type="radio" id="other" name="inquiry" value="Other">
+                        <label for="other">Other</label>
+                    </fieldset><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40"></textarea><br><br>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="col box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5832.264375485065!2d-76.1362671231021!3d43.03865017113797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1769635704339!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p><span class="copyright">© 2026</span><span class="tagline">"We evolve, beyond the person that we were a minute before. Little by little, we advance with each turn. That's how a drill works!" — Kazuki Nakashima</span></p>
+    </footer>
+
+</body>
+</html>
