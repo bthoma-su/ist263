@@ -13,13 +13,6 @@ a {
   color: #4a7fa5;
 }
 
-.banner {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
 a:hover {
   color: #7aafd4;
 }
@@ -38,7 +31,13 @@ nav a:hover {
   background-color: #1a2e42;
 }
 
-/* ── Flexbox rows ── */
+.banner {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
 .row {
   display: flex;
   gap: 20px;
@@ -49,7 +48,6 @@ nav a:hover {
   flex: 1;
 }
 
-/* ── Boxes ── */
 .box {
   background-color: #1c2633;
   border-radius: 10px;
@@ -57,7 +55,6 @@ nav a:hover {
   border: 1px solid #2e3d4f;
 }
 
-/* ── Form styling ── */
 input[type="text"],
 textarea {
   width: 90%;
@@ -91,7 +88,6 @@ button[type="submit"]:hover {
   background-color: #1a2e42;
 }
 
-/* ── Footer ── */
 footer {
   margin: 20px 30px 10px 30px;
 }
