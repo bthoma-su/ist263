@@ -210,8 +210,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #7f8c8d;
+    color: #ffffff;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .gallery-item:hover .placeholder-image {
