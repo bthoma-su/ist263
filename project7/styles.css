@@ -164,7 +164,7 @@ main {
     padding: 1rem 2rem;
     background-color: #3498db;
     color: #ffffff !important;
-    text-decoration: none;
+    text-decoration: none !important;
     border-radius: 8px;
     margin-top: 1rem;
     font-weight: bold;
@@ -176,11 +176,17 @@ main {
     background-color: #2980b9;
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    color: #ffffff !important;
 }
 
 .cta-button:focus {
     outline: 3px solid #5dade2;
     outline-offset: 4px;
+    color: #ffffff !important;
+}
+
+.cta-button:visited {
+    color: #ffffff !important;
 }
 
 .gallery {
